@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div><button onclick="mode(4, 2, 'easy')">Easy</button>
+        <button onclick="mode(8, 6, 'medium')">Medium</button>
+        <button onclick="mode(12, 30, 'hard')">Hard</button>
+        <button onclick="manual()" >Manual</button>
+        <button>Undo</button>
+    </div>
+
+    <table border="1">
+        <tbody class="menu">
+            <tr>
+                <td class="life cell">🧡 </td>
+                <td class="life cell">🧡 </td>
+                <td class="life cell">🧡 </td>
+                <td onclick="initGame()">😀 </td>
+            </tr>
+            <tr>
+                <td class="hint cell" onclick="HintClicked(this)">💡</td>
+                <td class="hint cell" onclick="HintClicked(this)">💡 </td>
+                <td class="hint cell" onclick="HintClicked(this)">💡 </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <table border="1">
+        <tbody class="board" oncontextmenu="return false"></tbody>
+
+    </table>
+<div class=><span class="min">00</span>: <span class="sec">00</span></div>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

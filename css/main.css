@@ -1,0 +1,42 @@
+body{
+    background-color: crimson;
+}
+.cell{
+    width: 30px;
+text-align: center;
+    height: 30px;
+    font-weight: bold;
+}
+.shown{
+    background-color: deepskyblue;
+}
+.life{
+    width: 30px;
+background-color: gold;
+    height: 30px;
+}
+.hint{
+    width: 30px;
+background-color: greenyellow;
+    height: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+.negs1{
+    color: green;
+}
+.negs2{
+    color: red
+}
+.negs3{
+    color: blueviolet;
+}
+.negs4{
+    color:blue
+}
+.negs0{
+    color:  deepskyblue;
+}
