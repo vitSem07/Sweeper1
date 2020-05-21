@@ -1,24 +1,23 @@
 body{
-    background-color: crimson;
+    width: 100%;
+    min-height: 700px;
+min-width: 600px;
 }
 .cell{
     width: 30px;
 text-align: center;
     height: 30px;
     font-weight: bold;
+    background-color: rgb(90, 90, 90);
 }
 .shown{
-    background-color: deepskyblue;
+    background-color: rgb(62, 209, 126);
 }
-.life{
-    width: 30px;
-background-color: gold;
-    height: 30px;
+.life{ 
+background-color: red;  
 }
 .hint{
-    width: 30px;
 background-color: greenyellow;
-    height: 30px;
 }
 button{
     position: relative;
@@ -26,7 +25,7 @@ button{
     border-radius: 10px;
 }
 .negs1{
-    color: green;
+    color: seashell;
 }
 .negs2{
     color: red
@@ -39,4 +38,13 @@ button{
 }
 .negs0{
     color:  deepskyblue;
+}
+
+table{
+    margin: 0 auto;
+}
+.menu{
+    margin: 0 auto;
+    text-align: center;
+    color: saddlebrown;
 }
